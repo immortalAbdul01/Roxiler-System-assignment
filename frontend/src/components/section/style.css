@@ -1,0 +1,6 @@
+.section-container{
+    width: 100vw;
+    height: 90vh;
+    overflow: scroll;
+    padding: 0px;
+}

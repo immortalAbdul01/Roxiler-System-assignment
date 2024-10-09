@@ -1,0 +1,95 @@
+/* General Styling */
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f9f9f9;
+}
+
+.transaction-container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Table Styling */
+.transactions-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+.transactions-table th,
+.transactions-table td {
+	border: 1px solid #e0e0e0;
+	padding: 12px;
+	text-align: left;
+}
+
+.transactions-table th {
+	background-color: #f0f0f0;
+	font-weight: 600;
+	color: #333;
+}
+
+.transactions-table tr:nth-child(even) {
+	background-color: #fafafa;
+}
+
+.transactions-table tr:hover {
+	background-color: #f1f1f1;
+	transition: background-color 0.2s ease;
+}
+
+.transactions-table td {
+	font-size: 14px;
+	color: #555;
+}
+
+.transactions-table img {
+	width: 50px;
+	height: auto;
+	border-radius: 5px;
+}
+
+/* Pagination Styling */
+.pagination-controls {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.pagination-controls button {
+	padding: 8px 16px;
+	margin: 0 5px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	transition: background-color 0.3s ease;
+}
+
+.pagination-controls button:hover {
+	background-color: #0056b3;
+}
+
+.pagination-controls button:disabled {
+	background-color: #cccccc;
+	cursor: not-allowed;
+}
+
+.pagination-controls div {
+	font-size: 14px;
+	padding: 5px 10px;
+	margin: 0 5px;
+	color: #555;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}

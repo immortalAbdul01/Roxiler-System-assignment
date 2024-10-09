@@ -1,0 +1,14 @@
+.month-container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    width: 200px;
+    height: 40px;
+    padding: 2px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: none;
+}
